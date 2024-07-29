@@ -103,6 +103,48 @@
   position: relative;
 }
 
+@media screen and (max-height: 620px) {
+  .imgContainer {
+    width: 180px;
+    height: 120px;
+    border-radius: 76px 76px 0 0;
+  }
+
+  .name {
+    margin-top: 8px;
+    padding: 0;
+  }
+
+  .man, .woman {
+    font-size: 32px;
+  }
+  
+  .and {
+    margin: 12px 0;
+    font-size: 44px;
+  }
+
+  .descContainer {
+    margin-top: 8px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+  
+  .date {
+    font-size: 24px;
+  }
+
+  .countDown {
+    margin-top: 8px;
+  }
+  
+  .time {
+    font-size: 32px;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .imgContainer {
     width: 140px;

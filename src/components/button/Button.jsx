@@ -39,8 +39,8 @@ const Button = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", onScroll, { passive: true });
-    disableScroll();
-  }, [disableScroll, onScroll])
+    // disableScroll();
+  }, [onScroll])
   
   return (
     <motion.div
