@@ -9,16 +9,19 @@ export const metadata = {
   openGraph: {
     title: 'Lamidi & Iba Lestari',
     description: 'Undangan Pernikahan Lamidi, S.Pd. dan Iba Lestari, A.Md.Keb.',
-    url: process.env.HOST_URL,
+    // url: process.env.HOST_URL,
+    url: 'https://wedding-lamidi.vercel.app/',
     siteName: 'Undangan Pernikahan Lamidi, S.Pd. dan Iba Lestari, A.Md.Keb.',
     images: [
       {
-        url: `${process.env.HOST_URL}images/couple1.jpg`,
+        // url: `${process.env.HOST_URL}images/couple1.jpg`,
+        url: `https://wedding-lamidi.vercel.app/images/couple1.jpg`,
         width: 800,
         height: 600,
       },
       {
-        url: `${process.env.HOST_URL}images/couple1.jpg`,
+        // url: `${process.env.HOST_URL}images/couple1.jpg`,
+        url: `https://wedding-lamidi.vercel.app/images/couple1.jpg`,
         width: 1800,
         height: 1600,
         alt: 'Undangan Pernikahan Lamidi & Iba Lestari',
