@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 import styles from './hero.module.scss'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
+import Button from '../button/Button'
 
 const Hero = () => {
   const countDownDate = new Date("Aug 7, 2024 09:00:00").
@@ -89,6 +90,7 @@ const Hero = () => {
             className={`${styles.time} gold`} id='time'>00 : 00 : 00 : 00</motion.p>
         </div>
         <div className={styles.buttonContainer}>
+          <Button />
         </div>
       </div>
     </AnimatePresence>

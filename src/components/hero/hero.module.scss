@@ -98,6 +98,10 @@
   color: var(--secondaryColor);
 }
 
+.buttonContainer {
+  position: relative;
+}
+
 @media screen and (max-width: 450px) {
   .name {
     padding: 0;

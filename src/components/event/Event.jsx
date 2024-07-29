@@ -63,4 +63,4 @@ const EventComponent = () => {
   )
 }
 
-export default EventComponent
+export default EventComponent 

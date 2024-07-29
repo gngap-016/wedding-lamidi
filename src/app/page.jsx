@@ -5,12 +5,13 @@ import Navbar from "@/components/navbar/Navbar";
 import Person from "@/components/person/Person";
 import EventComponent from "@/components/event/Event";
 import Galery from "@/components/galery/Galery";
-import Gift from "@/components/gift/Gift";
 import Footer from "@/components/footer/Footer";
+import Audio from "@/components/audio/Audio";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Audio />
       <Waves />
       <Hero />
       <Person />
@@ -18,7 +19,7 @@ export default function Home() {
       <Galery />
       {/* <Gift /> */}
       <Footer />
-      <Navbar />
+      {/* <Navbar /> */}
     </main>
   );
 }
