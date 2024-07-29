@@ -7,6 +7,7 @@ import EventComponent from "@/components/event/Event";
 import Galery from "@/components/galery/Galery";
 import Footer from "@/components/footer/Footer";
 import Audio from "@/components/audio/Audio";
+import Quotes from "@/components/quotes/Quotes";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Audio />
       <Waves />
       <Hero />
+      <Quotes />
       <Person />
       <EventComponent />
       <Galery />

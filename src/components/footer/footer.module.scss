@@ -1,6 +1,6 @@
 .container {
   // min-height: 100vh;
-  padding: 40px 12px 200px 12px;
+  padding: 40px 12px 220px 12px;
   position: relative; 
 }
 
@@ -54,4 +54,10 @@
   z-index: 999;
   position: absolute;
   margin-left: 8px;
+}
+
+@media screen and (max-width: 450px) {
+  .personName {
+    font-size: 32px;
+  }
 }
